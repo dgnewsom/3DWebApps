@@ -213,6 +213,18 @@ header */
 .social {
 	padding-top: 0px;
 }
+.container-3d-preview{
+	width: 90%;
+    height: 45rem;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.embed-3d-preview{
+	height: 100%;
+	width: 100%;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	/* CSS rule to style the footer */
