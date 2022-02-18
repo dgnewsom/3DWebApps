@@ -1,0 +1,45 @@
+# Blender MTL File: 'Sprite_Bottle.blend'
+# Material Count: 4
+
+newmtl Sprite_Bottle_Material
+Ns 588.690647
+Ka 0.243028 0.243028 0.243028
+Kd 0.421990 0.543529 0.378145
+Ks 0.111554 0.111554 0.111554
+Ke 0.183421 0.199999 0.137672
+Ni 1.450000
+d 0.050000
+illum 6
+
+newmtl Sprite_Label_Material
+Ns 900.000000
+Ka 0.150000 0.150000 0.150000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000959 0.039685 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd textures\\SpriteBottle_Scanned.png
+map_Ke textures\\SpriteBottle_Scanned.png
+
+newmtl Sprite_Lid_Material
+Ns 143.999983
+Ka 0.150000 0.150000 0.150000
+Kd 0.011915 0.154868 0.000000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd textures\\SpriteBottle_Scanned.png
+
+newmtl Sprite_Liquid_Material
+Ns 473.192478
+Ka 1.000000 1.000000 1.000000
+Kd 0.106189 0.128359 0.094887
+Ks 0.047809 0.047809 0.047809
+Ke 0.006581 0.010564 0.006744
+Ni 1.500000
+d 0.100000
+illum 9
