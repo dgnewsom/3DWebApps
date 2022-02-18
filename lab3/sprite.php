@@ -8,13 +8,13 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="./css/bootstrap.css">
 <link rel="stylesheet" href="./css/style.css">
-<title>Lab 1</title>
+<title>Lab 3</title>
 <script src="https://kit.fontawesome.com/354fa36abf.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <?php include('./includes/navbar.php')?>
-<div class="container-3d-preview">
-	<embed class="embed-3d-preview" src="assets/can_preview/can_preview.html" />
+<div class="X3DOM_Container">
+	<embed class = "X3DOM_Embed" src="sprite_bottle.html" />
 </div>
 <nav class="navbar navbar-expand-sm footer">
 	<div class="container">
