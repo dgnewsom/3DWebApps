@@ -6,7 +6,7 @@
 <file name="sprite.php" server="C:/xampp/htdocs/3dapp/" local="132896633753145563" remote="132896633750000000" Dst="1" />
 <file name="coke.php" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896633947094621" remote="132896654010000000" Dst="1" />
 <file name="index.php" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896574728596703" remote="132896581520000000" Dst="1" />
-<file name="pepper.php" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896633945090684" remote="132896654010000000" Dst="1" />
+<file name="pepper.php" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896693813300185" remote="132896736460000000" Dst="1" />
 <file name="sprite.php" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896633753145563" remote="132896654040000000" Dst="1" />
 <file name="CokeTexture.png" server="C:/xampp/htdocs/3dapp/" local="132896570023310714" remote="132896570020000000" Dst="1" />
 <file name="Coke_Can.html" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896582057669533" remote="132896582560000000" Dst="1" />
@@ -20,4 +20,6 @@
 <file name="SpriteBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896654545039885" remote="132896654790000000" Dst="1" />
 <file name="dr_pepper_cup.html" server="C:/xampp/htdocs/3dapp/" local="132896693677976082" remote="132896693670000000" Dst="1" />
 <file name="Pepper_Cup.png" server="C:/xampp/htdocs/3dapp/" local="132896676222941068" remote="132896676220000000" Dst="1" />
+<file name="dr_pepper_cup.html" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896693677976082" remote="132896736460000000" Dst="1" />
+<file name="Pepper_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896676222941068" remote="132896736460000000" Dst="1" />
 </dwsync>

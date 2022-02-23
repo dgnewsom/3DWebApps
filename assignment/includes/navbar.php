@@ -37,7 +37,7 @@
 					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Extras</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="deeper_understanding.php">Deeper Understanding</a>
-						<a class="dropdown-item" href="coke-verge3d.php">Verge3D App</a>
+						<a class="dropdown-item" href="verge3d_app.php">Verge3D App</a>
 					</div>
      			</li>
 				

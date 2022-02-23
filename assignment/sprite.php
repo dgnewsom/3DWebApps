@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="./css/style.css">
 <title>Sprite</title>
 <script src="https://kit.fontawesome.com/354fa36abf.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
 <?php include('./includes/navbar.php')?>

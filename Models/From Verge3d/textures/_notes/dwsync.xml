@@ -2,7 +2,7 @@
 <dwsync>
 <file name="CokeTexture.png" server="C:/xampp/htdocs/3dapp/" local="132890707770000000" remote="132890707770000000" Dst="1" />
 <file name="SpriteBottle_Scanned.png" server="C:/xampp/htdocs/3dapp/" local="132896465699882721" remote="132896465690000000" Dst="1" />
-<file name="SpriteBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896465699882721" remote="132896497070000000" Dst="1" />
+<file name="SpriteBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132896465699882721" remote="132896736520000000" Dst="1" />
 <file name="CokeBottle_Scanned.png" server="C:/xampp/htdocs/3dapp/" local="132894160830000000" remote="132894160830000000" Dst="1" />
 <file name="Coke_Cup.png" server="C:/xampp/htdocs/3dapp/" local="132894943280000000" remote="132894943280000000" Dst="1" />
 <file name="FantaBottle_Scanned.png" server="C:/xampp/htdocs/3dapp/" local="132894883490000000" remote="132894883490000000" Dst="1" />
@@ -13,16 +13,15 @@
 <file name="pepper_texture.png" server="C:/xampp/htdocs/3dapp/" local="132894954560000000" remote="132894954560000000" Dst="1" />
 <file name="SpriteTexture.png" server="C:/xampp/htdocs/3dapp/" local="132894955810000000" remote="132894955810000000" Dst="1" />
 <file name="Sprite_Cup.png" server="C:/xampp/htdocs/3dapp/" local="132894957110000000" remote="132894957110000000" Dst="1" />
-<file name="CokeBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894160830000000" remote="132896500410000000" Dst="1" />
-<file name="CokeTexture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132890707770000000" remote="132896500420000000" Dst="1" />
-<file name="Coke_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894943280000000" remote="132896500420000000" Dst="1" />
-<file name="FantaBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894883490000000" remote="132896500420000000" Dst="1" />
-<file name="Fanta_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894949580000000" remote="132896500430000000" Dst="1" />
-<file name="fanta_texture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132891448990000000" remote="132896500430000000" Dst="1" />
-<file name="PepperBottle_scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894894500000000" remote="132896500450000000" Dst="1" />
-<file name="Pepper_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894945390000000" remote="132896500450000000" Dst="1" />
-<file name="pepper_texture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894954560000000" remote="132896500450000000" Dst="1" />
-<file name="SpriteTexture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894955810000000" remote="132896500480000000" Dst="1" />
-<file name="Sprite_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894957110000000" remote="132896500490000000" Dst="1" />
-<file name="studio_small_03_4k.hdr" server="C:/xampp/htdocs/3dapp/" local="132896631779813069" remote="132896631770000000" Dst="1" />
+<file name="CokeBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894160830000000" remote="132896736480000000" Dst="1" />
+<file name="CokeTexture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132890707770000000" remote="132896736490000000" Dst="1" />
+<file name="Coke_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894943280000000" remote="132896736480000000" Dst="1" />
+<file name="FantaBottle_Scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894883490000000" remote="132896736500000000" Dst="1" />
+<file name="Fanta_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894949580000000" remote="132896736490000000" Dst="1" />
+<file name="fanta_texture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132891448990000000" remote="132896736490000000" Dst="1" />
+<file name="PepperBottle_scanned.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894894500000000" remote="132896736510000000" Dst="1" />
+<file name="Pepper_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894945390000000" remote="132896736500000000" Dst="1" />
+<file name="pepper_texture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894954560000000" remote="132896736500000000" Dst="1" />
+<file name="SpriteTexture.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894955810000000" remote="132896736520000000" Dst="1" />
+<file name="Sprite_Cup.png" server="unix.sussex.ac.uk/public_html/3dapp/" local="132894957110000000" remote="132896736510000000" Dst="1" />
 </dwsync>

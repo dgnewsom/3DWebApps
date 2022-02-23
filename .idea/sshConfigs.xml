@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="unix.sussex.ac.uk" id="f9b4efac-4b20-423b-8c4a-a6af8ba7752f" port="22" customName="Remote" nameFormat="CUSTOM" username="dgn22@sussex.ac.uk" useOpenSSHConfig="true">
+        <option name="customName" value="Remote" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

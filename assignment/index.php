@@ -4,12 +4,12 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="./css/bootstrap.css">
 <link rel="stylesheet" href="./css/style.css">
-<title>Coca Cola</title>
 <script src="https://kit.fontawesome.com/354fa36abf.js" crossorigin="anonymous"></script>
+<title>Coca Cola</title>
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
 <?php include('./includes/navbar.php')?>

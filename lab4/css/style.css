@@ -34,7 +34,7 @@ body {
 	background-image: url(../assets/images/main_3D.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 160px; /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
+	height: 200px; /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
 	border-radius: 5px;
 }
 #main_text {
@@ -142,7 +142,7 @@ defaults to Bootstrap CSS on dropdown!
 /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
 */
 .navbar_coca_cola .navbar-nav > li > a:hover, .navbar_coca_cola .navbar-nav > li > a:focus {
-/*	color: grey;*/
+	/*	color: grey;*/
 }
 .navbar_coca_cola .navbar-nav .nav-item {
 	margin-top: 0px;
@@ -152,7 +152,7 @@ font color and background colour
 */
 .navbar_coca_cola .navbar-nav .nav-item > .active, .navbar_coca_cola .navbar-nav > .active > a:hover, .navbar_coca_cola .navbar-nav > .active > a:focus {
 	background-color: #ff0000;
-    border-radius: 10px;
+	border-radius: 10px;
 }
 /* A set of CSS rules to change the Bootstrap defaults for the menu link 
 text color, hover, background, focus
@@ -161,8 +161,8 @@ text color, hover, background, focus
 */
 .navbar_coca_cola .navbar-nav > li > a:hover, .navbar_coca_cola .navbar-nav > li > a:focus {
 	background-color: #ff0000;
-    border-radius: 10px;
-/*	color: grey;*/
+	border-radius: 10px;
+	/*	color: grey;*/
 }
 /* These next two CSS rules control the style of the icon bar */
 .navbar_coca_cola .navbar-toggler {
@@ -191,12 +191,12 @@ text color, hover, background, focus
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: rgba(182, 231, 243, 1.0);
+	border-width: 0.5px;
 }
 /* CSS rule to style the footer */
 .footer {
 	color: #030303;
-	background-color: #760003; /* Set navbar footer background color same as 
-header */
+	background-color: #760003;
 	height: 60px;
 }
 .navbar-text > a {
@@ -212,6 +212,65 @@ header */
 }
 .social {
 	padding-top: 0px;
+}
+.img-thumbnail {
+	padding: 0.25rem;
+	margin-top: 5px;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+	max-width: 100%;
+	height: auto;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	color: #ffffff;
+	background-color: #760104;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs .nav-link {
+	color: #000000;
+	border: 1px solid transparent;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+.nav-tabs .nav-link:hover {
+	color: #ffffff;
+	background-color: #ff0000;
+	border: 1px solid transparent;
+}
+.preview-header{
+	padding: 1rem;
+	margin: auto;
+}
+.preview-header h4{
+	font-size: 30px;
+}
+
+.gallery-header {
+	color: white;
+}
+.gallery-header:hover {
+	color: green;
+	border: 1px solid transparent;
+}
+.model3D  {
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+	border-radius: 5px;
+	/*border: 1px solid rgba(0, 0, 0, 1.0);*/
+	padding: 2px;
+	height: 400px;
+}
+X3D, x3d {
+	border-radius: 5px;
+	/*border: 1px solid rgba(255, 0, 0, 1.0);*/
+	width: 100%;
+	height: 100%;
+	position:relative;
+	cursor:pointer;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	display: block;
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -270,59 +329,81 @@ header */
 	.nav-item a {
 		font-size: 18px;
 	}
+
 	#main_3d_image {
 		height: 310px;
 	}
+
 	#main_text {
 		width: 38%;
 	}
+
 	#main_text h2 {
 		font-size: 35px;
 	}
+
 	#main_text p {
 		font-size: 15px;
 	}
-	/* Large devices (desktops, 992px and up) */
-	@media (min-width: 992px) {
-		.nav-item a {
-			font-size: 22px;
-		}
-		.logo {
-			margin-top: 10px;
-		}
-		.logo h1 {
-			font-size: 65px;
-		}
-		.logo h2 {
-			font-size: 65px;
-		}
-		.logo h3 {
-			font-size: 45px;
-		}
-		.logo p {
-			font-size: 18px; /* You may have to tweak this to get a good fit */
-			margin-top: 60px; /* You may have to tweak this to get a good fit */
-		}
-		#main_3d_image {
-			height: 400px;
-		}
-		#main_text {
-			width: 38%;
-		}
-		#main_text h2 {
-			font-size: 58px;
-		}
-		#main_text h3 {
-			font-size: 25px;
-		}
-		#main_text p {
-			font-size: 18px;
-		}
-		/* X-Large devices (large desktops, 1200px and up) */
-		@media (min-width: 1200px) {
-			#main_text {
-				width: 30%;
-			}
-		}
-		/* XX-Large devices (larger desktops, 1400px and up) */
-		@media (min-width: 1400px) {}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.nav-item a {
+		font-size: 22px;
+	}
+
+	.logo {
+		margin-top: 10px;
+	}
+
+	.logo h1 {
+		font-size: 65px;
+	}
+
+	.logo h2 {
+		font-size: 65px;
+	}
+
+	.logo h3 {
+		font-size: 45px;
+	}
+
+	.logo p {
+		font-size: 18px; /* You may have to tweak this to get a good fit */
+		margin-top: 60px; /* You may have to tweak this to get a good fit */
+	}
+
+	#main_3d_image {
+		height: 520px;
+		height: 520px;
+	}
+
+	#main_text {
+		width: 38%;
+	}
+
+	#main_text h2 {
+		font-size: 58px;
+	}
+
+	#main_text h3 {
+		font-size: 25px;
+	}
+
+	#main_text p {
+		font-size: 18px;
+	}
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#main_text {
+		width: 30%;
+	}
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.container {
+		max-width: 90%;
+	}
+}
+
