@@ -2,8 +2,13 @@
 <!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
 <X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
   <Scene DEF='scene'>
-    <Viewpoint DEF='Camera001' description='Camera001' orientation='0.5707 0.807 0.152 -0.6375' position='-0.2086 0.1651 0.3664' fieldOfView='0.6024'/>
-    <Transform DEF='Can' rotation='1.991e-05 1 0 -0.01745'>
+    <Viewpoint DEF='Front_Camera' description='Front_Camera' orientation='1 0 0 -0.3948' position='0 0.125 0.3' fieldOfView='0.6024'/>
+    <Viewpoint DEF='Right_Camera' description='Right_Camera' orientation='0.1925 -0.9623 -0.1925 -1.609' position='0.3 0.125 0' fieldOfView='0.6024'/>
+    <Viewpoint DEF='Left_Camera' description='Left_Camera' orientation='0.1925 0.9623 0.1925 -1.609' position='-0.3 0.125 0' fieldOfView='0.6024'/>
+    <Viewpoint DEF='Rear_Camera' description='Rear_Camera' orientation='0 -0.9806 -0.1961 -3.142' position='0 0.125 -0.3' fieldOfView='0.6024'/>
+    <Viewpoint DEF='Top_Camera' description='Top_Camera' orientation='1 0 0 -1.571' position='0 0.25 0' fieldOfView='0.6024'/>
+    <Viewpoint DEF='Bottom_Camera' description='Bottom_Camera' orientation='-1 0 0 -1.571' position='-0.001437 -0.25 0.0002875' fieldOfView='0.6024'/>
+    <Transform DEF='Can' rotation='0 -1 0 -0.3438' scale='1.271 1.271 1.271'>
       <Shape>
         <Appearance>
           <Material ambientIntensity='1' diffuseColor='0.588 0.588 0.588' shininess='0.145'/>

@@ -1,18 +1,48 @@
 #VRML V2.0 utf8
 
 # Produced by 3D Studio MAX VRML97 exporter, Version 24.03, Revision 34.04
-# MAX File: Sprite_Bottle.max, Date: Fri Feb 18 12:56:05 2022
+# MAX File: Sprite_Bottle.max, Date: Fri Feb 25 11:37:20 2022
 
-DEF Camera001 Viewpoint {
-  position -0.4523 10.08 31.21
-  orientation 0.999 0.04478 0.007049 -0.3126
+DEF Front_Camera Viewpoint {
+  position 0 0.125 0.3
+  orientation 1 0 0 -0.3948
   fieldOfView 0.6024
-  description "Camera001"
+  description "Front_Camera"
+}
+DEF Left_Camera Viewpoint {
+  position -0.3 0.125 0
+  orientation 0.1925 0.9623 0.1925 -1.609
+  fieldOfView 0.6024
+  description "Left_Camera"
+}
+DEF Right_Camera Viewpoint {
+  position 0.3 0.125 0
+  orientation 0.1925 -0.9623 -0.1925 -1.609
+  fieldOfView 0.6024
+  description "Right_Camera"
+}
+DEF Rear_Camera Viewpoint {
+  position 0 0.125 -0.3
+  orientation 0 -0.9806 -0.1961 -3.142
+  fieldOfView 0.6024
+  description "Rear_Camera"
+}
+DEF Top_Camera Viewpoint {
+  position 0 0.2 0
+  orientation 1 0 0 -1.571
+  fieldOfView 0.6024
+  description "Top_Camera"
+}
+DEF Bottom_Camera Viewpoint {
+  position 0 -0.2 0
+  orientation -1 0 0 -1.571
+  fieldOfView 0.6024
+  description "Bottom_Camera"
 }
 DEF Sprite_Bottle Transform {
   translation 0 0 0
   rotation 0 -1 0 -0.001872
-  scale 3.986 3.986 3.986
+  scale 0.06707 0.06707 0.06707
   children [
     Shape {
       appearance Appearance {
@@ -26,7 +56,7 @@ DEF Sprite_Bottle Transform {
       }
       geometry DEF Sprite_Bottle-FACES IndexedFaceSet {
         ccw TRUE
-        solid FALSE
+        solid TRUE
         coord DEF Sprite_Bottle-COORD Coordinate { point [
           -0.3004 -0.4518 -0.0489, -0.3058 -0.2836 -0.04975, -0.3028 -0.3662 -0.04928, 
           -0.3007 -0.6211 -0.04894, -0.2942 -0.537 -0.04789, 
@@ -24429,7 +24459,7 @@ DEF Sprite_Bottle Transform {
               transparency 0
             }
             texture ImageTexture {
-              url "..\sceneassets\images/SpriteBottle_Scanned.png"
+              url "SpriteBottle_Scanned.png"
             }
           }
           geometry DEF Sprite_Bottle_Label-FACES IndexedFaceSet {
@@ -24547,7 +24577,7 @@ DEF Sprite_Bottle Transform {
               transparency 0
             }
             texture ImageTexture {
-              url "..\sceneassets\images/SpriteBottle_Scanned.png"
+              url "SpriteBottle_Scanned.png"
             }
           }
           geometry DEF Sprite_Bottle_Lid-FACES IndexedFaceSet {
@@ -25097,7 +25127,7 @@ DEF Sprite_Bottle Transform {
           }
           geometry DEF Sprite_Liquid-FACES IndexedFaceSet {
             ccw TRUE
-            solid FALSE
+            solid TRUE
             coord DEF Sprite_Liquid-COORD Coordinate { point [
               0.0054 -1.022 0.0003288, 0.005247 -1.022 0.001294, 
               0.004924 -1.022 0.002216, 0.002214 -1.022 0.004924, 

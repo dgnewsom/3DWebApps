@@ -1,17 +1,48 @@
 #VRML V2.0 utf8
 
 # Produced by 3D Studio MAX VRML97 exporter, Version 24.03, Revision 34.04
-# MAX File: Coke_Can.max, Date: Fri Feb 18 10:56:05 2022
+# MAX File: Coke_Can.max, Date: Fri Feb 25 11:20:42 2022
 
-DEF Camera001 Viewpoint {
-  position -0.2086 0.1651 0.3664
-  orientation 0.5707 0.807 0.152 -0.6375
+DEF Front_Camera Viewpoint {
+  position 0 0.125 0.3
+  orientation 1 0 0 -0.3948
   fieldOfView 0.6024
-  description "Camera001"
+  description "Front_Camera"
+}
+DEF Right_Camera Viewpoint {
+  position 0.3 0.125 0
+  orientation 0.1925 -0.9623 -0.1925 -1.609
+  fieldOfView 0.6024
+  description "Right_Camera"
+}
+DEF Left_Camera Viewpoint {
+  position -0.3 0.125 0
+  orientation 0.1925 0.9623 0.1925 -1.609
+  fieldOfView 0.6024
+  description "Left_Camera"
+}
+DEF Rear_Camera Viewpoint {
+  position 0 0.125 -0.3
+  orientation 0 -0.9806 -0.1961 -3.142
+  fieldOfView 0.6024
+  description "Rear_Camera"
+}
+DEF Top_Camera Viewpoint {
+  position 0 0.25 0
+  orientation 1 0 0 -1.571
+  fieldOfView 0.6024
+  description "Top_Camera"
+}
+DEF Bottom_Camera Viewpoint {
+  position -0.001437 -0.25 0.0002875
+  orientation -1 0 0 -1.571
+  fieldOfView 0.6024
+  description "Bottom_Camera"
 }
 DEF Can Transform {
   translation 0 0 0
-  rotation 2.987e-05 1 0 -0.01745
+  rotation 0 -1 0 -0.3438
+  scale 1.271 1.271 1.271
   children [
     Shape {
       appearance Appearance {
@@ -23,7 +54,7 @@ DEF Can Transform {
           transparency 0
         }
         texture ImageTexture {
-          url "..\sceneassets\images/CokeTexture.png"
+          url "CokeTexture.png"
         }
       }
       geometry DEF Can-FACES IndexedFaceSet {

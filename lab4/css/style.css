@@ -213,6 +213,9 @@ text color, hover, background, focus
 .social {
 	padding-top: 0px;
 }
+.footer-link{
+	color: white
+}
 .img-thumbnail {
 	padding: 0.25rem;
 	margin-top: 5px;

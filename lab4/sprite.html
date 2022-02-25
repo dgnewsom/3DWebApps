@@ -20,7 +20,7 @@
 	<div class="container">
 		<!-- Brand -->
 		<div class="logo">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="index.html">
 				<h1>1</h1>
 				<h1>oca</h1>
 				<h2>Cola</h2>
@@ -36,19 +36,20 @@
 			<!-- Links -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#" title="About" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Created for the H7006: Web 3D Applications Module 2022">About</a>
+					<!--					<a class="nav-link" href="#">About</a>-->
 				</li>
 
 				<!-- Dropdown -->
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Coca Cola</a>
-						<a class="dropdown-item" href="#">Sprite</a>
-						<a class="dropdown-item" href="#">Dr Pepper</a>
+						<a class="dropdown-item" href="coke.html">Coca Cola</a>
+						<a class="dropdown-item" href="sprite.html">Sprite</a>
+						<a class="dropdown-item" href="pepper.html">Dr Pepper</a>
 					</div>
 				</li>
 			</ul>
@@ -63,68 +64,69 @@
 					<div class="card-header">
 						<ul class="nav nav-tabs card-header-tabs">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="true" href="coke.html">Coca-Cola</a>
+								<a class="nav-link" aria-current="true" href="coke.html">Coca-Cola</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Sprite</a>
+								<a class="nav-link active" href="sprite.html">Sprite</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Dr Pepper</a>
+								<a class="nav-link" href="pepper.html">Dr Pepper</a>
 							</li>
 						</ul>
 					</div>
 					<div class ="preview-header">
-						<h4>Coca Cola X3D Model</h4>
+						<h4>Sprite X3D Model</h4>
 					</div>
 					<div class="model3D">
 						<x3d>
 							<scene>
-								<inline url="./assets/x3d/coke_can.x3d"></inline>
+								<inline namespacename = "can" url="./assets/x3d/sprite_bottle.x3d"></inline>
 							</scene>
 						</x3d>
 					</div>
-<!--					<div id="main_3d_image"></div>-->
+					<!--					<div id="main_3d_image"></div>-->
 
 					<div class="card-body">
 
 						<p class="card-text">This model was created using 3DS Max, exported VRML97 and converted to X3D for displaying.</p>
 						<h4>Camera Views</h4>
 						<p>Use these buttons to adjust the camera view for the 3D preview</p>
+						<button type="button" onclick="cam1()">Cam 1</button>
 						<a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
 						<a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
 						<a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
 						<a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
 					</div>
 				</div>
-		</div>
-		<div class="col-sm-2">
-			<div class="card text-left">
-				<div class="card-header">
-					3D Image Gallery
-				</div>
-				<div class="card-body">
-					<a href="coke.html">
-						<img class="card-img-top img-fluid img-thumbnail" src="./assets/images/coca_cola.jpg" alt="Coca Cola">
-					</a>
-					<a href="sprite.html">
-						<img class="card-img-top img-fluid img-thumbnail" src="./assets/images/sprite.jpg" alt="Sprite">
-					</a>
-					<a href="pepper.html">
-						<img class="card-img-top img-fluid img-thumbnail" src="./assets/images/dr_pepper.jpg" alt="Dr Pepper">
-					</a>
-					<p class="card-text">3D images rendered using 3DS Max and Blender</p>
+			</div>
+			<div class="col-sm-2">
+				<div class="card text-left">
+					<div class="card-header">
+						3D Image Gallery
+					</div>
+					<div class="card-body">
+						<a href="coke.html">
+							<img class="card-img-top img-fluid img-thumbnail" src="./assets/images/coca_cola.jpg" alt="Coca Cola">
+						</a>
+						<a href="sprite.html">
+							<img class="card-img-top img-fluid img-thumbnail" src="./assets/images/sprite.jpg" alt="Sprite">
+						</a>
+						<a href="pepper.html">
+							<img class="card-img-top img-fluid img-thumbnail" src="./assets/images/dr_pepper.jpg" alt="Dr Pepper">
+						</a>
+						<p class="card-text">3D images rendered using 3DS Max and Blender</p>
+					</div>
 				</div>
 			</div>
 		</div>
-			</div>
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="card">
 					<div class="card-body">
-						<h3 class="card-title">Coca Cola</h3>
+						<h3 class="card-title">Sprite</h3>
 						<p class="card-text">
-							Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled.
-							Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.
+							First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries.
+							Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.
 						</p>
 					</div>
 				</div>
@@ -135,13 +137,13 @@
 <nav class="navbar navbar-expand-sm footer">
 	<div class="container">
 		<div class="navbar-text float-left copyright">
-			<p><span class="align-baseline">&copy; 2022 Daniel Newsom</span></p>
+			<p><span class="align-baseline">&copy; 2022 <a class="footer-link" href="https://www.danielnewsom.co.uk">Daniel Newsom</a></span></p>
 		</div>
 		<div class="navbar-text float-right social">
-			<a href="#"><i class="fab fa-facebook-square fa-2x" style="font-size: 20;color: red"></i></a>
-			<a href="#"><i class="fab fa-twitter fa-2x" style="font-size: 20;color: green"></i></a>
-			<a href="#"><i class="fab fa-google-plus fa-2x" style="font-size: 20;color: blue"></i></a>
-			<a href="#"><i class="fab fa-github-square fa-2x" style="font-size: 20;color: yellow"></i></a>
+			<a href="https://www.facebook.com/cocacolaGB" target="_blank"><i class="fab fa-facebook-square fa-2x footer-link"></i></a>
+			<a href="https://twitter.com/CocaCola" target="_blank"><i class="fab fa-twitter fa-2x footer-link"></i></a>
+			<a href="https://www.instagram.com/cocacola" target="_blank"><i class="fab fa-brands fa-instagram fa-2x footer-link"></i></a>
+			<a href="https://www.linkedin.com/company/the-coca-cola-company" target="_blank"><i class="fab fa-brands fa-linkedin fa-2x footer-link"></i></a>
 		</div>
 	</div>
 </nav>
@@ -152,5 +154,7 @@
 <script src="./js/bootstrap.js"></script>
 <!-- Include the x3dom JavaScript -->
 <script type='text/javascript' src='./js/x3dom.js'></script>
+<script type='text/javascript' src='./js/coke_can.js'></script>
+<script type='text/javascript' src='./js/popover.js'></script>
 </body>
 </html>
