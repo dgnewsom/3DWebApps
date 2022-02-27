@@ -190,8 +190,13 @@ text color, hover, background, focus
 .card {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background-color: rgba(182, 231, 243, 1.0);
-	border-width: 0.5px;
+	background-color: rgba(0,0,0,0);
+	border-width: 1px;
+}
+
+.card-header{
+	background-color: #760003;
+	color: white;
 }
 /* CSS rule to style the footer */
 .footer {
@@ -231,15 +236,17 @@ text color, hover, background, focus
 	border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .nav-link {
-	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
 	border: 1px solid transparent;
 	border-top-left-radius: 0.25rem;
 	border-top-right-radius: 0.25rem;
 }
 .nav-tabs .nav-link:hover {
-	color: #ffffff;
-	background-color: #ff0000;
-	border: 1px solid transparent;
+	color: white;
+	/*background-color: #ff0000;*/
+	/*border: 1px solid transparent;*/
 }
 .preview-header{
 	padding: 1rem;
@@ -247,15 +254,16 @@ text color, hover, background, focus
 }
 .preview-header h4{
 	font-size: 30px;
+	font-weight: bold;
 }
 
-.gallery-header {
-	color: white;
-}
-.gallery-header:hover {
-	color: green;
-	border: 1px solid transparent;
-}
+/*.gallery-header {*/
+/*	color: white;*/
+/*}*/
+/*.gallery-header:hover {*/
+/*	color: green;*/
+/*	border: 1px solid transparent;*/
+/*}*/
 .model3D  {
 	/*background-color: rgba(255, 255, 255, 0.2);*/
 	border-radius: 5px;
@@ -275,6 +283,33 @@ X3D, x3d {
 	outline: none;
 	display: block;
 }
+/*Gallery*/
+.img-thumbnail {
+	padding: 0.25rem;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+	max-width: 100%;
+	height: auto;
+}
+
+.gallery {
+	/*margin: auto;*/
+	text-align: center;
+}
+
+.gallery .card-header{
+	text-align: center;
+	font-weight: bold;
+}
+
+.gallery .img-thumbnail{
+	padding: 0.25rem;
+	margin: 5px;
+	max-width: 45%;
+	height: auto;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	/* CSS rule to style the footer */
