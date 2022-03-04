@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5fed4bea-f07a-4f1a-8c33-6e3f29d18dbd" name="Remote">
+        <fileTransfer rootFolder="/its/home/dgn22/public_html/" accessType="SFTP" host="unix.sussex.ac.uk" port="22" sshConfigId="f9b4efac-4b20-423b-8c4a-a6af8ba7752f" sshConfig="Remote">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b83a4b43-8dc3-4281-93e7-cf99583f95aa" name="Test" url="http://localhost:80">
+        <fileTransfer mountedRoot="C:\Users\d_g_n\xampp\htdocs\3DWebApps" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
