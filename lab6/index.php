@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!--CSS (Bootstrap First) -->
 <link rel="stylesheet" href="./css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 <link rel="stylesheet" href="./css/x3dom.css">
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/lightbox.css">
 <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 <title>Lab 6</title>
 </head>
@@ -39,5 +41,6 @@
 <script type="text/javascript" src="./scripts/js/swap_restyle.js"></script>
 <script type="text/javascript" src="./scripts/js/gallery_generator.js"></script>
 <script type="text/javascript" src="./scripts/js/getJsonData.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 </html>

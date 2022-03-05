@@ -35,7 +35,7 @@
                 <div class="card-header main-colour"">
                     <h4 id="coke_gallery_title"></h4>
                 </div>
-                <div id="gallery_coke"></div>
+                <div class="lightbox-gallery" id="gallery_coke"></div>
                 <p class="card-text" id="coke_gallery_text"></p>
             </div>
         </div>
