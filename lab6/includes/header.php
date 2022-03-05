@@ -30,7 +30,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="javascript:swap('coke')">Coca Cola</a>
+                        <a class="dropdown-item" id="cokeButton" href="javascript:swap('coke')">Coca Cola</a>
                         <a class="dropdown-item" href="javascript:swap('sprite')">Sprite</a>
                         <a class="dropdown-item" href="javascript:swap('pepper')">Dr Pepper</a>
                     </div>

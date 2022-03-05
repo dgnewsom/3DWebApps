@@ -14,14 +14,3 @@
         </div>
     </div>
 </nav>
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="./scripts/js/jquery-3.3.1.slim.min.js"></script>
-<script src="./scripts/js/popper.min.js"  ></script>
-<script src="./scripts/js/bootstrap.js"></script>
-<script src="./scripts/js/popover.js"></script>
-<script type='text/javascript' src='scripts/js/x3dom.js'></script>
-<script type='text/javascript' src='scripts/js/coke_can.js'></script>
-<script src="https://kit.fontawesome.com/354fa36abf.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="./scripts/js/swap_restyle.js"></script>
-<script type="text/javascript" src="scripts/js/gallery_generator.js"></script>
