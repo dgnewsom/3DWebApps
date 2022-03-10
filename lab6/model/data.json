@@ -48,6 +48,10 @@
     {
       "camera_title": "Camera Views",
       "camera_text": "Use these buttons to adjust the camera view for the 3D preview"
+    },
+    {
+      "animation_title": "Animation",
+      "animation_text": "Use these buttons to stop and start the animation"
     }
   ]
 }

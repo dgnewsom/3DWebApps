@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Brand -->
         <div class="logo">
-            <a class="navbar-brand" href="javascript:swap('home')">
+            <a class="navbar-brand" href="javascript:showHome()">
                 <h1>1</h1>
                 <h1>oca</h1>
                 <h2>Cola</h2>
@@ -19,7 +19,7 @@
             <!-- Links -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:swap('home')">Home</a>
+                    <a class="nav-link" href="javascript:showHome()">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" title="About" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Created for the H7006: Web 3D Applications Module 2022">About</a>
@@ -29,10 +29,10 @@
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" id="cokeButton" href="javascript:swap('coke')">Coca Cola</a>
-                        <a class="dropdown-item" href="javascript:swap('sprite')">Sprite</a>
-                        <a class="dropdown-item" href="javascript:swap('pepper')">Dr Pepper</a>
+                    <div class="dropdown-menu main-colour">
+                        <a class="dropdown-item" href="javascript:showModel('coke')" >Coca Cola</a>
+                        <a class="dropdown-item" href="javascript:showModel('sprite')">Sprite</a>
+                        <a class="dropdown-item" href="javascript:showModel('pepper')">Dr Pepper</a>
                     </div>
                 </li>
             </ul>

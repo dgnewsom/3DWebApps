@@ -27,26 +27,26 @@ $(document).ready(function(){
 
         $('#coke_model_title').html(jsonObject.pageTextData[4].x3dModelTitle)
         $('#coke_model_text').html(jsonObject.pageTextData[4].x3dCreationMethod)
-        $('#coke_camera_title').html(jsonObject.pageTextData[8].camera_title)
-        $('#coke_camera_text').html(jsonObject.pageTextData[8].camera_text)
         $('#coke_page_title').html(jsonObject.pageTextData[4].title)
         $('#coke_page_subtitle').html(jsonObject.pageTextData[4].subtitle)
         $('#coke_page_description').html(jsonObject.pageTextData[4].description)
 
         $('#sprite_model_title').html(jsonObject.pageTextData[5].x3dModelTitle)
         $('#sprite_model_text').html(jsonObject.pageTextData[5].x3dCreationMethod)
-        $('#sprite_camera_title').html(jsonObject.pageTextData[8].camera_title)
-        $('#sprite_camera_text').html(jsonObject.pageTextData[8].camera_text)
         $('#sprite_page_title').html(jsonObject.pageTextData[5].title)
         $('#sprite_page_subtitle').html(jsonObject.pageTextData[5].subtitle)
         $('#sprite_page_description').html(jsonObject.pageTextData[5].description)
 
         $('#pepper_model_title').html(jsonObject.pageTextData[6].x3dModelTitle)
         $('#pepper_model_text').html(jsonObject.pageTextData[6].x3dCreationMethod)
-        $('#pepper_camera_title').html(jsonObject.pageTextData[8].camera_title)
-        $('#pepper_camera_text').html(jsonObject.pageTextData[8].camera_text)
         $('#pepper_page_title').html(jsonObject.pageTextData[6].title)
         $('#pepper_page_subtitle').html(jsonObject.pageTextData[6].subtitle)
         $('#pepper_page_description').html(jsonObject.pageTextData[6].description)
+
+        $('#camera_title').html(jsonObject.pageTextData[8].camera_title)
+        $('#camera_text').html(jsonObject.pageTextData[8].camera_text)
+
+        $('#animation_title').html(jsonObject.pageTextData[9].animation_title)
+        $('#animation_text').html(jsonObject.pageTextData[9].animation_text)
     });
 });

@@ -1,5 +1,5 @@
 <!-- Home Page Content -->
-<div id="home" class="container main_contents">
+<div id="home">
     <div class="row">
         <!-- main 3d image-->
         <div class="col-sm-12">
@@ -16,7 +16,7 @@
         <!--Coca cola column-->
         <div class="col-sm-4">
             <div class="card">
-                <a href="javascript:swap('coke')">
+                <a href="javascript:showModel('coke')">
                     <img class="card-img-top img-fluid img-thumbnail" src="assets/images/site_images/coca_cola.jpg" alt="Coca Cola">
                 </a>
                 <div class="card-body">
@@ -36,7 +36,7 @@
         <!--Sprite column-->
         <div class="col-sm-4">
             <div class="card">
-                <a href="javascript:swap('sprite')">
+                <a href="javascript:showModel('sprite')">
                     <img class="card-img-top img-fluid img-thumbnail" src="assets/images/site_images/sprite.jpg" alt="Sprite">
                 </a>
                 <div class="card-body">
@@ -56,7 +56,7 @@
         <!--Dr Pepper column-->
         <div class="col-sm-4">
             <div class="card">
-                <a href="javascript:swap('pepper')">
+                <a href="javascript:showModel('pepper')">
                     <img class="card-img-top img-fluid img-thumbnail" src="assets/images/site_images/dr_pepper.jpg" alt="Dr Pepper">
                 </a>
                 <div class="card-body">
