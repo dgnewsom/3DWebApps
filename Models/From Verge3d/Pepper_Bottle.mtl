@@ -1,0 +1,44 @@
+# Blender 3.1.0 MTL File: 'AllModels.blend'
+# www.blender.org
+
+newmtl clear_bottle_material
+Ns 280.773315
+Ka 0.151394 0.151394 0.151394
+Kd 1.000000 0.894104 0.993287
+Ks 0.071713 0.071713 0.071713
+Ke 0.241174 0.261317 0.275236
+Ni 1.450000
+d 0.150000
+illum 6
+
+newmtl coke_liquid_material
+Ns 426.913879
+Ka 0.067460 0.067460 0.067460
+Kd 0.010018 0.002751 0.002421
+Ks 0.091633 0.091633 0.091633
+Ke 0.081984 0.035134 0.033367
+Ni 1.100000
+d 0.990000
+illum 6
+
+newmtl pepper_label_texture
+Ns 1000.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000774 0.000122 0.000347
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  textures\PepperBottle_scanned.png
+
+newmtl pepper_lid_texture
+Ns 159.999985
+Ka 0.150000 0.150000 0.150000
+Kd 0.011915 0.154868 0.000000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  textures\PepperBottle_scanned.png

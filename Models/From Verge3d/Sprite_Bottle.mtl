@@ -1,8 +1,8 @@
-# Blender MTL File: 'Sprite_Bottle.blend'
-# Material Count: 4
+# Blender 3.1.0 MTL File: 'AllModels.blend'
+# www.blender.org
 
-newmtl Sprite_Bottle_Material
-Ns 588.690647
+newmtl sprite_bottle_material
+Ns 654.100708
 Ka 0.243028 0.243028 0.243028
 Kd 0.421990 0.543529 0.378145
 Ks 0.111554 0.111554 0.111554
@@ -11,8 +11,8 @@ Ni 1.450000
 d 0.050000
 illum 6
 
-newmtl Sprite_Label_Material
-Ns 900.000000
+newmtl sprite_label_texture
+Ns 1000.000000
 Ka 0.150000 0.150000 0.150000
 Kd 0.800000 0.800000 0.800000
 Ks 0.100000 0.100000 0.100000
@@ -20,11 +20,10 @@ Ke 0.000959 0.039685 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures\\SpriteBottle_Scanned.png
-map_Ke textures\\SpriteBottle_Scanned.png
+map_Kd  textures\SpriteBottle_Scanned.png
 
-newmtl Sprite_Lid_Material
-Ns 143.999983
+newmtl sprite_lid_texture
+Ns 159.999985
 Ka 0.150000 0.150000 0.150000
 Kd 0.011915 0.154868 0.000000
 Ks 0.100000 0.100000 0.100000
@@ -32,10 +31,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures\\SpriteBottle_Scanned.png
+map_Kd  textures\SpriteBottle_Scanned.png
 
-newmtl Sprite_Liquid_Material
-Ns 473.192478
+newmtl sprite_liquid_material
+Ns 525.769348
 Ka 1.000000 1.000000 1.000000
 Kd 0.106189 0.128359 0.094887
 Ks 0.047809 0.047809 0.047809

@@ -1,0 +1,13 @@
+# Blender 3.1.0 MTL File: 'AllModels.blend'
+# www.blender.org
+
+newmtl cup_texture
+Ns 136.194672
+Ka 0.209091 0.209091 0.209091
+Kd 0.588000 0.588000 0.588000
+Ks 0.086364 0.086364 0.086364
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd  textures\Coke_Cup.png

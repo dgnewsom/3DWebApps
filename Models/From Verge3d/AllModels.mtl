@@ -1,0 +1,23 @@
+# Blender 3.1.0 MTL File: 'AllModels.blend'
+# www.blender.org
+
+newmtl coke_liquid_material
+Ns 426.913879
+Ka 0.067460 0.067460 0.067460
+Kd 0.010018 0.002751 0.002421
+Ks 0.091633 0.091633 0.091633
+Ke 0.081984 0.035134 0.033367
+Ni 1.100000
+d 0.990000
+illum 6
+
+newmtl cup_texture
+Ns 136.194672
+Ka 0.209091 0.209091 0.209091
+Kd 0.588000 0.588000 0.588000
+Ks 0.086364 0.086364 0.086364
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd  textures\Coke_Cup.png
