@@ -17,7 +17,7 @@ class Model{
                                       ));
         }
         catch (PDOException $e){
-            echo "Cannot connect to database.";
+            echo "Cannot connect to db.";
             print new Exeption($e->getMessage());
         }
     }

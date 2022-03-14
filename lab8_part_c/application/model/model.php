@@ -17,14 +17,14 @@ class Model{
                                       ));
         }
         catch (PDOException $e){
-            echo "Cannot connect to database.";
+            echo "Cannot connect to db.";
             print new Exeption($e->getMessage());
         }
     }
 
     function dbCreateTable(){
         try{
-            $this->dbhandle->exec("CREATE TABLE Model_3D (Id INTEGER PRIMARY KEY, x3dModelTitle TEXT, 
+            $this->dbhandle->exec("CREATE TABLE Model_3D (Id INTEGER PRIMARY KEY,brand TEXT, x3dModelTitle TEXT, 
                                    x3dCreationMethod TEXT, modelTitle TEXT, modelSubtitle TEXT, modelDescription TEXT)");
             return "Model_3D table was successfully created";
         }catch (PDOException $e){
@@ -35,12 +35,14 @@ class Model{
     function dbInsertData(){
         try{
             $this->dbhandle->exec(
-                "INSERT INTO Model_3D (Id, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
-                 VALUES (1, 'string1', 'string2', 'string3', 'string4', 'string5');".
-                "INSERT INTO Model_3D (Id, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
-                 VALUES (2, 'string1', 'string2', 'string3', 'string4', 'string5');".
-                "INSERT INTO Model_3D (Id, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
-                 VALUES (3, 'string1', 'string2', 'string3', 'string4', 'string5');");
+                "INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
+                 VALUES (1, 'Fanta', 'string2', 'string3', 'string4', 'string5', 'string6');".
+                "INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
+                 VALUES (2, 'Sprite', 'string2', 'string3', 'string4', 'string5', 'string6');".
+                "INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
+                 VALUES (3, 'Coca Cola', 'string2', 'string3', 'string4', 'string5', 'string6');".
+                "INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription)
+                 VALUES (4, 'Dr Pepper', 'string2', 'string3', 'string4', 'string5', 'string6');");
             return "X3D model data inserted into test1.db";
         }catch (PDOException $e){
             print new Exception($e->getMessage());
@@ -67,5 +69,9 @@ class Model{
         $this->dbhandle = NULL;
         return $result;
     }
+    function dbGetBrand(){
+        return array("-","Coca Cola","Sprite","Fanta","Dr Pepper");
+    }
+
 }
 ?>
