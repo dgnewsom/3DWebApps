@@ -40,7 +40,7 @@ body {
 	margin-bottom: 10px;
 }
 #main_3d_image {
-	background-image: url(../assets/images/site_images/main_3D.jpg);
+	background-image: url(../assets/images/site_images/main_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px; /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
@@ -266,28 +266,28 @@ text color, hover, background, focus
 	height: auto;
 }
 
-#coke_button{
+#x3d_coke_button{
 	background-image: url('../assets/images/buttons/coke_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 100px;
 }
-#sprite_button{
+#x3d_sprite_button{
 	background-image: url('../assets/images/buttons/sprite_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 100px;
 }
-#pepper_button{
+#x3d_pepper_button{
 	background-image: url('../assets/images/buttons/pepper_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 100px;
 }
-#fanta_button{
+#x3d_fanta_button{
 	background-image: url('../assets/images/buttons/fanta_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -302,21 +302,21 @@ text color, hover, background, focus
 	height: 75px;
 	width: 100px;
 }
-#can_button {
+#x3d_can_button {
 	background-image: url('../assets/images/buttons/can_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 100px;
 }
-#bottle_button{
+#x3d_bottle_button{
 	background-image: url('../assets/images/buttons/bottle_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 100px;
 }
-#cup_button{
+#x3d_cup_button{
 	background-image: url('../assets/images/buttons/cup_button.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -437,6 +437,18 @@ X3D, x3d {
 	margin: 5px;
 	max-width: 45%;
 	height: auto;
+}
+
+.container-3d-preview{
+	width: 100%;
+	height: 43rem;
+	margin: auto;
+	padding: 0.1rem;
+}
+
+.embed-3d-preview{
+	height: 100%;
+	width: 100%;
 }
 
 /* Small devices (landscape phones, 576px and up)*/

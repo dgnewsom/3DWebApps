@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="../css/x3dom.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/lightbox.css">
+    <link rel="stylesheet" href="../assets/verge3d/verge3d.css">
+
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-    <title>Lab 6 - MVC</title>
-</head>
-<body id="body">
+    <title>Coca Cola</title>
+</head><body id="body">
 <!-- Header -->
 <?php include "./includes/header.php"?>
 <!-- Main container-->
@@ -21,6 +22,10 @@
     <?php include "./includes/mainpage.php"?>
     <!-- Model page-->
     <?php include "./includes/model_page.php"?>
+    <!-- Deeper understanding page-->
+    <?php include "./includes/deeper_understanding.php"?>
+    <!-- Verge3d page-->
+    <?php include "./includes/verge3dapp.php"?>
 </div>
 <!-- Footer-->
 <?php include "./includes/footer.php"?>

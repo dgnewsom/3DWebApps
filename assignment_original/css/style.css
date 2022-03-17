@@ -194,8 +194,8 @@ text color, hover, background, focus
 }
 /* CSS rule to style the footer */
 .footer {
-	position: absolute
-	bottom: 60px
+	position: absolute;
+	bottom: 60px;
 	color: #030303;
 	background-color: #760003; /* Set navbar footer background color same as 
 header */
@@ -248,7 +248,7 @@ header */
     border: 0;
 }
 
-#coke_button, #sprite_button, #pepper_button, #fanta_button, #spin_button, #wire_button, #can_button, #cup_button, #bottle_button{
+#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #verge_spin_button, #verge_wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button{
     position: absolute;
     width: 80px;
     height: 40px;
@@ -258,51 +258,51 @@ header */
 	background-size: contain;
 }
 
-#coke_button {
+#verge_coke_button {
     left: 10px;
 	top: 10px;
 	background-image: url("../assets/can_preview/button_images/coke_button.png");
 }
 
-#sprite_button {
+#verge_sprite_button {
     left: 10px;
 	top: 60px;
 	background-image: url("../assets/can_preview/button_images/sprite_button.png");
 }
-#pepper_button {
+#verge_pepper_button {
     left: 10px;
 	top: 110px;
 	background-image: url("../assets/can_preview/button_images/pepper_button.png");
 }
 
-#fanta_button {
+#verge_fanta_button {
     left: 10px;
 	top: 160px;
 	background-image: url("../assets/can_preview/button_images/fanta_button.png");
 }
-#wire_button {
+#verge_wire_button {
     right: 10px;
 	top: 10px;		;
 	background-image: url("../assets/can_preview/button_images/wire_button.png");
 }
-#spin_button {
+#verge_spin_button {
     right: 10px;
 	top: 60px;
 	background-image: url("../assets/can_preview/button_images/spin_button.png");
 }
-#can_button {
+#verge_can_button {
     right: 10px;
 	top: 110px;
 	background-image: url("../assets/can_preview/button_images/can_button.png");
 }
 
-#bottle_button {
+#verge_bottle_button {
     right: 10px;
 	top: 160px;
 	background-image: url("../assets/can_preview/button_images/bottle_button.png");
 }
 
-#cup_button {
+#verge_cup_button {
     right: 10px;
 	top: 210px;
 	background-image: url("../assets/can_preview/button_images/cup_button.png");
@@ -418,18 +418,18 @@ header */
 	#main_text p {
 		font-size: 18px;
 	}
-	#coke_button, #sprite_button, #pepper_button, #fanta_button, #spin_button, #wire_button, #can_button, #cup_button, #bottle_button{
+	#x3d_coke_button, #x3d_sprite_button, #x3d_pepper_button, #x3d_fanta_button, #spin_button, #wire_button, #x3d_can_button, #x3d_cup_button, #x3d_bottle_button{
 		width: 150px;
 		height: 75px;
 	}
-	#sprite_button {
+	#x3d_sprite_button {
 		top: 100px;
 	}
-	#pepper_button {
+	#x3d_pepper_button {
 		top: 190px;
 	}
 
-	#fanta_button {
+	#x3d_fanta_button {
 		top: 280px;
 	}
 	
@@ -437,15 +437,15 @@ header */
 		top: 100px;
 	}
 	
-	#can_button {
+	#x3d_can_button {
 		top: 190px;
 	}
 
-	#bottle_button {
+	#x3d_bottle_button {
 		top: 280px;
 	}
 
-	#cup_button {
+	#x3d_cup_button {
 		top: 370px;
 	}
 		
@@ -456,4 +456,6 @@ header */
 			}
 		}
 		/* XX-Large devices (larger desktops, 1400px and up) */
-		@media (min-width: 1400px) {}
+		@media (min-width: 1400px) {
+		}
+}}

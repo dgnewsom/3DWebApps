@@ -8,11 +8,16 @@ function showHome(){
     resetColours();
     $("#home").show();
     $("#model").hide();
+    $("#deeper_understanding").hide();
+    $('#verge3d').hide();
 }
 
 function showModel($modelName){
     $("#home").hide();
     $("#model").show();
+    $("#deeper_understanding").hide();
+    $('#verge3d').hide();
+
 
     $('#coke_gallery').hide()
     $('#coke_description_model').hide()
@@ -45,3 +50,18 @@ function showModel($modelName){
     }
     switch_brand($modelName);
 }
+
+function showVerge3d(){
+    $("#home").hide();
+    $("#model").hide();
+    $("#deeper_understanding").hide();
+    $('#verge3d').show();
+}
+
+function showDeeperUnderstanding(){
+    $("#home").hide();
+    $("#model").hide();
+    $("#deeper_understanding").show();
+    $('#verge3d').hide();
+}
+

@@ -34,9 +34,7 @@ class Controller {
         $this->load->view('viewMessage',$data);
     }
 
-    function apiGetData(): ?array
-    {
-        return $data = $this->model->dbGetData();
+    function verge3D(){
+        $this->load->view('verge3dapp');
     }
-
 }

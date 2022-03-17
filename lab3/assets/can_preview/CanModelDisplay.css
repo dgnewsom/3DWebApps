@@ -55,7 +55,7 @@ body {
     border: 0;
 }
 
-#coke_button, #sprite_button, #pepper_button, #fanta_button, #spin_button{
+#x3d_coke_button, #x3d_sprite_button, #x3d_pepper_button, #x3d_fanta_button, #spin_button{
     position: absolute;
     width: 200px;
     height: 100px;
@@ -66,23 +66,23 @@ body {
     cursor: pointer;
 }
 
-#coke_button {
+#x3d_coke_button {
     left: 10px;
 	top: 10px;
 	background-image: url("button_images/coke_button.png");
 }
 
-#sprite_button {
+#x3d_sprite_button {
     left: 10px;
 	top: 120px;
 	background-image: url("button_images/sprite_button.png");
 }
-#pepper_button {
+#x3d_pepper_button {
     left: 10px;
 	top: 230px;
 	background-image: url("button_images/pepper_button.png");
 }
-#fanta_button {
+#x3d_fanta_button {
     left: 10px;
 	top: 340px;
 	background-image: url("button_images/fanta_button.png");

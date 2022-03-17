@@ -3,10 +3,10 @@
         <div class="col-sm-6">
             <div class="card text-left">
                 <div class="card-header main-colour">
-                    <button class="btn" id="coke_button" onclick="showModel('coke')">Coca-Cola</button>
-                    <button class="btn" id="sprite_button" onclick="showModel('sprite')">Sprite</button>
-                    <button class="btn" id="pepper_button" onclick="showModel('pepper')">Dr Pepper</button>
-                    <button class="btn" id="fanta_button" onclick="showModel('fanta')">Fanta</button>
+                    <button class="btn" id="x3d_coke_button" onclick="showModel('coke')">Coca-Cola</button>
+                    <button class="btn" id="x3d_sprite_button" onclick="showModel('sprite')">Sprite</button>
+                    <button class="btn" id="x3d_pepper_button" onclick="showModel('pepper')">Dr Pepper</button>
+                    <button class="btn" id="x3d_fanta_button" onclick="showModel('fanta')">Fanta</button>
                 </div>
                 <div class="card-body">
                     <!--            Coke Model-->
@@ -70,9 +70,9 @@
                     <div class="card-body">
                         <div class="card-text">
                             <p id="model_type_text"></p>
-                            <a href="#" class="btn btn-primary btn-responsive" id = "can_button"  onclick="javascript:set_model_type('can')">Can</a>
-                            <a href="#" class="btn btn-primary btn-responsive" id = "bottle_button"  onclick="javascript:set_model_type('bottle')">Bottle</a>
-                            <a href="#" class="btn btn-primary btn-responsive" id = "cup_button"  onclick="javascript:set_model_type('cup')">Cup</a>
+                            <a href="#" class="btn btn-primary btn-responsive" id = "x3d_can_button" onclick="javascript:set_model_type('can')">Can</a>
+                            <a href="#" class="btn btn-primary btn-responsive" id = "x3d_bottle_button" onclick="javascript:set_model_type('bottle')">Bottle</a>
+                            <a href="#" class="btn btn-primary btn-responsive" id = "x3d_cup_button" onclick="javascript:set_model_type('cup')">Cup</a>
                         </div>
                     </div>
                 </div>

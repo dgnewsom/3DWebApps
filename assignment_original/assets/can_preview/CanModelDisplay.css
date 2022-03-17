@@ -55,7 +55,7 @@ body {
     border: 0;
 }
 
-#coke_button, #sprite_button, #pepper_button, #fanta_button, #spin_button, #wire_button, #can_button, #cup_button, #bottle_button{
+#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #spin_button, #wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button{
     position: absolute;
     width: 150px;
     height: 75px;
@@ -67,51 +67,51 @@ body {
 	background-size: contain;
 }
 
-#coke_button {
+#verge_coke_button {
     left: 10px;
 	top: 10px;
 	background-image: url("./button_images/coke_button.png");
 }
 
-#sprite_button {
+#verge_sprite_button {
     left: 10px;
 	top: 90px;
 	background-image: url("./button_images/sprite_button.png");
 }
-#pepper_button {
+#verge_pepper_button {
     left: 10px;
 	top: 170px;
 	background-image: url("./button_images/pepper_button.png");
 }
 
-#fanta_button {
+#verge_fanta_button {
     left: 10px;
 	top: 250px;
 	background-image: url("./button_images/fanta_button.png");
 }
-#wire_button {
+#verge_wire_button {
     left: 10px;
 	top: 330px		;
 	background-image: url("./button_images/wire_button.png");
 }
-#spin_button {
+#verge_spin_button {
     left: 10px;
 	top: 410px;
 	background-image: url("./button_images/spin_button.png");
 }
-#can_button {
+#verge_can_button {
     right: 10px;
 	top: 90px;
 	background-image: url("./button_images/can_button.png");
 }
 
-#bottle_button {
+#verge_bottle_button {
     right: 10px;
 	top: 170px;
 	background-image: url("./button_images/bottle_button.png");
 }
 
-#cup_button {
+#verge_cup_button {
     right: 10px;
 	top: 250px;
 	background-image: url("./button_images/cup_button.png");

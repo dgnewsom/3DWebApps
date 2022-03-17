@@ -35,6 +35,14 @@
                         <a class="dropdown-item" href="javascript:showModel('pepper')">Dr Pepper</a>
                     </div>
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Extras</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:showDeeperUnderstanding()">Deeper </br>Understanding</a>
+                        <a class="dropdown-item" href="javascript:showVerge3d()">Verge3D App</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

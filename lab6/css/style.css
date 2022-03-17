@@ -265,27 +265,27 @@ text color, hover, background, focus
 	height: auto;
 }
 
-#coke_button{
+#x3d_coke_button{
 	background-color: var(--coke_colour);
 	color: white;
 	font-weight: bold;
 }
-#sprite_button{
+#x3d_sprite_button{
 	background-color: var(--sprite_colour);
 	color: white;
 	font-weight: bold;
 }
-#pepper_button{
+#x3d_pepper_button{
 	background-color: var(--pepper_colour);
 	color: white;
 	font-weight: bold;
 }
-#fanta_button{
+#x3d_fanta_button{
 	background-color: var(--fanta_colour);
 	color: white;
 	font-weight: bold;
 }
-#cam_button, #spin_button, #can_button, #bottle_button, #cup_button{
+#cam_button, #spin_button, #x3d_can_button, #x3d_bottle_button, #x3d_cup_button{
 	background-color: var(--coke_colour);
 	color: white;
 	font-weight: bold;
