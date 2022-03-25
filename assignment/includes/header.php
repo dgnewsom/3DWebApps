@@ -42,6 +42,7 @@
                         <a class="dropdown-item" href="javascript:showDeeperUnderstanding()">Deeper </br>Understanding</a>
                         <a class="dropdown-item" href="javascript:showVerge3d()">Verge3D App</a>
                         <a class="dropdown-item" target="_blank" href="https://github.com/dgnewsom/3DWebApps"><i class="fa-brands fa-github-square"></i> Github Repo</a>
+                        <a class="dropdown-item" target="_blank" href="https://github.com/dgnewsom/3DWebApps/tree/main/Models/X3D/export"><i class="fa-brands fa-github-square"></i> Models</a>
                     </div>
                 </li>
             </ul>

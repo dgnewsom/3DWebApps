@@ -17,7 +17,7 @@
                     <li>Using an SQL database and 2D arrays to store and retrieve the details for each brand as well as texts for the Camera, animation, Lighting and Model Type Cards on the model page</li>
                     <li>Using JQuery to show and hide areas instead of switching pages.</li>
                     <li>Used JQuery to restyle the page according to the brand being viewed and reset upon leaving model page. (also has links in the footer to cycle colours and reset to current brand displayed)</li>
-                    <li>Research and implement a lightbox gallery (by Lokesh Dhakar) for each brand</li>
+                    <li>Research and implement a lightbox gallery (by Lokesh Dhakar) for each brand that overlays full screen when images are clicked and allows image browsing.</li>
                     <li>Dynamically populate a different gallery on the model page depending upon the currently viewed brand.</li>
                     <li>Render images of all models for the galleries</li>
                 </ul>

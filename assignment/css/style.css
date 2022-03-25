@@ -277,6 +277,11 @@ body {
 	height: 75px;
 	width: 100px;
 }
+
+#light_slider{
+	width: 90%;
+}
+
 #x3d_can_button {
 	background-image: url('../assets/images/buttons/can_button.png');
 	background-size: cover;
@@ -533,19 +538,22 @@ X3D, x3d{
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
-	.col-sm-2{
+	.col-sm-2 {
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-	.col-sm-3{
+
+	.col-sm-3 {
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-	.col-sm-4{
+
+	.col-sm-4 {
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-	.col-sm-6{
+
+	.col-sm-6 {
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
@@ -576,7 +584,7 @@ X3D, x3d{
 		width: 100px;
 	}
 
-	.preview-header{
+	.preview-header {
 		font-size: 1.5rem;
 	}
 
@@ -600,7 +608,7 @@ X3D, x3d{
 		max-width: 768px;
 	}
 
-	.container-3d-preview{
+	.container-3d-preview {
 		height: 43rem;
 	}
 
@@ -654,13 +662,14 @@ X3D, x3d{
 		top: 65px;
 	}
 
-	.copyright p{
+	.copyright p {
 		font-size: 1rem;
 	}
 
 	.social {
 		margin: 0px;
 	}
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.container, .container-sm, .container-md {
@@ -703,6 +712,9 @@ X3D, x3d{
 		height: 40px;
 		width: 78px;
 	}
+
+
+
 	.preview-header{
 		font-size: 2rem;
 	}
@@ -796,8 +808,6 @@ X3D, x3d{
 
 	.brand-card {
 		min-height: 50rem;
-	}
-
 	}
 	#model_col {
 		flex: 0 0 50%;
