@@ -33,12 +33,13 @@
                         <a class="dropdown-item" href="javascript:showModel('coke')" >Coca Cola</a>
                         <a class="dropdown-item" href="javascript:showModel('sprite')">Sprite</a>
                         <a class="dropdown-item" href="javascript:showModel('pepper')">Dr Pepper</a>
+                        <a class="dropdown-item" href="javascript:showModel('fanta')">Fanta</a>
                     </div>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Extras</a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu main-colour">
                         <a class="dropdown-item" href="javascript:showDeeperUnderstanding()">Deeper </br>Understanding</a>
                         <a class="dropdown-item" href="javascript:showVerge3d()">Verge3D App</a>
                     </div>

@@ -52,6 +52,8 @@ function showModel($modelName){
 }
 
 function showVerge3d(){
+    brand = 'coke';
+    resetColours();
     $("#home").hide();
     $("#model").hide();
     $("#deeper_understanding").hide();
@@ -59,6 +61,8 @@ function showVerge3d(){
 }
 
 function showDeeperUnderstanding(){
+    brand = 'coke';
+    resetColours();
     $("#home").hide();
     $("#model").hide();
     $("#deeper_understanding").show();

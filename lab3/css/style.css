@@ -294,54 +294,70 @@ header */
 	.nav-item a {
 		font-size: 18px;
 	}
+
 	#main_3d_image {
 		height: 310px;
 	}
+
 	#main_text {
 		width: 38%;
 	}
+
 	#main_text h2 {
 		font-size: 35px;
 	}
+
 	#main_text p {
 		font-size: 15px;
 	}
+
 	/* Large devices (desktops, 992px and up) */
 	@media (min-width: 992px) {
 		.nav-item a {
 			font-size: 22px;
 		}
+
 		.logo {
 			margin-top: 10px;
 		}
+
 		.logo h1 {
 			font-size: 65px;
 		}
+
 		.logo h2 {
 			font-size: 65px;
 		}
+
 		.logo h3 {
 			font-size: 45px;
 		}
+
 		.logo p {
 			font-size: 18px; /* You may have to tweak this to get a good fit */
 			margin-top: 60px; /* You may have to tweak this to get a good fit */
 		}
+
 		#main_3d_image {
 			height: 400px;
 		}
+
 		#main_text {
 			width: 38%;
 		}
+
 		#main_text h2 {
 			font-size: 58px;
 		}
+
 		#main_text h3 {
 			font-size: 25px;
 		}
+
 		#main_text p {
 			font-size: 18px;
 		}
+
 		/* X-Large devices (large desktops, 1200px and up) */
 		@media (min-width: 1200px) {
 			#main_text {
@@ -349,4 +365,7 @@ header */
 			}
 		}
 		/* XX-Large devices (larger desktops, 1400px and up) */
-		@media (min-width: 1400px) {}
+		@media (min-width: 1400px) {
+		}
+	}
+}

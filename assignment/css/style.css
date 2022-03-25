@@ -350,29 +350,6 @@ text color, hover, background, focus
 	background-image: url('../assets/images/buttons/bottom_button.png');
 }
 
-
-	/*background-color: var(--coke_colour);*/
-	/*color: white;*/
-	/*font-weight: bold;*/
-
-/*.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {*/
-/*	color: #ffffff;*/
-/*	background-color: var(--coke_colour);*/
-/*	border-color: #dee2e6 #dee2e6 #fff;*/
-/*}*/
-/*.nav-tabs .nav-link {*/
-/*	font-weight: bold;*/
-/*	font-size: 20px;*/
-/*	color: white;*/
-/*	border: 1px solid transparent;*/
-/*	border-top-left-radius: 0.25rem;*/
-/*	border-top-right-radius: 0.25rem;*/
-/*}*/
-/*.nav-tabs .nav-link:hover {*/
-/*	color: white;*/
-/*	!*background-color: #ff0000;*!*/
-/*	!*border: 1px solid transparent;*!*/
-/*}*/
 .preview-header{
 	/*padding: 0.2rem;*/
 	/*margin: auto;*/
@@ -381,14 +358,6 @@ text color, hover, background, focus
 	font-size: 30px;
 	font-weight: bold;
 }
-
-/*.gallery-header {*/
-/*	color: white;*/
-/*}*/
-/*.gallery-header:hover {*/
-/*	color: green;*/
-/*	border: 1px solid transparent;*/
-/*}*/
 .model3D  {
 	/*background-color: rgba(255, 255, 255, 0.2);*/
 	border-radius: 5px;
@@ -409,9 +378,6 @@ X3D, x3d {
 	display: block;
 }
 
-/*#spin_button{*/
-/*	background-color: green;*/
-/*}*/
 /*Gallery*/
 .img-thumbnail {
 	padding: 0.25rem;
@@ -441,7 +407,7 @@ X3D, x3d {
 
 .container-3d-preview{
 	width: 100%;
-	height: 43rem;
+	height: 46rem;
 	margin: auto;
 	padding: 0.1rem;
 }

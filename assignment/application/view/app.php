@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/x3dom.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/lightbox.css">
-    <link rel="stylesheet" href="../assets/verge3d/verge3d.css">
 
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <title>Coca Cola</title>
