@@ -28,7 +28,7 @@
 
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+                    <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Drinks</a>
                     <div class="dropdown-menu main-colour">
                         <a class="dropdown-item" href="javascript:showModel('coke')" >Coca Cola</a>
                         <a class="dropdown-item" href="javascript:showModel('sprite')">Sprite</a>
@@ -38,7 +38,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Extras</a>
+                    <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Extras</a>
                     <div class="dropdown-menu main-colour">
                         <a class="dropdown-item" href="javascript:showDeeperUnderstanding()">Deeper </br>Understanding</a>
                         <a class="dropdown-item" href="javascript:showVerge3d()">Verge3D App</a>

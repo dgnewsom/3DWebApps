@@ -14,7 +14,7 @@
                         <h4 class ="preview-header" id="model_title"></h4>
                         <x3d>
                             <scene>
-                                <inline namespacename = "model" mapDEFToID="true" url="../assets/x3d/models.x3d"></inline>
+                                <inline namespacename = "model" mapDEFToID="true" url="./assets/x3d/models.x3d"></inline>
                             </scene>
                         </x3d>
                     </div>
@@ -35,12 +35,12 @@
                     <div class="card-body">
                         <div class="card-text">
                             <p id="camera_text"><?php echo $data['cards']['camera']['text']?></p>
-                            <a href="#" class="btn " id="front_cam_button" onclick="javascript:set_camera('front')"></a>
-                            <a href="#" class="btn " id="back_cam_button" onclick="javascript:set_camera('rear')"></a>
-                            <a href="#" class="btn " id="left_cam_button" onclick="javascript:set_camera('left')"></a>
-                            <a href="#" class="btn " id="right_cam_button" onclick="javascript:set_camera('right')"></a>
-                            <a href="#" class="btn " id="top_cam_button" onclick="javascript:set_camera('top')"></a>
-                            <a href="#" class="btn " id="bottom_cam_button" onclick="javascript:set_camera('bottom')"></a>
+                            <a class="btn " id="front_cam_button" onclick="javascript:set_camera('front')"></a>
+                            <a class="btn " id="back_cam_button" onclick="javascript:set_camera('rear')"></a>
+                            <a class="btn " id="left_cam_button" onclick="javascript:set_camera('left')"></a>
+                            <a class="btn " id="right_cam_button" onclick="javascript:set_camera('right')"></a>
+                            <a class="btn " id="top_cam_button" onclick="javascript:set_camera('top')"></a>
+                            <a class="btn " id="bottom_cam_button" onclick="javascript:set_camera('bottom')"></a>
                         </div>
                     </div>
                 </div>
@@ -55,9 +55,9 @@
                     <div class="card-body">
                         <div class="card-text">
                             <p id="model_type_text"><?php echo $data['cards']['modelType']['text']?></p>
-                            <a href="#" class="btn" id = "x3d_can_button" onclick="javascript:set_model_type('can')"></a>
-                            <a href="#" class="btn" id = "x3d_bottle_button" onclick="javascript:set_model_type('bottle')"></a>
-                            <a href="#" class="btn" id = "x3d_cup_button" onclick="javascript:set_model_type('cup')"></a>
+                            <a class="btn" id = "x3d_can_button" onclick="javascript:set_model_type('can')"></a>
+                            <a class="btn" id = "x3d_bottle_button" onclick="javascript:set_model_type('bottle')"></a>
+                            <a class="btn" id = "x3d_cup_button" onclick="javascript:set_model_type('cup')"></a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                     <div class="card-body">
                         <div class="card-text">
                             <p id="animation_text"><?php echo $data['cards']['animation']['text']?></p>
-                            <a href="#" class="btn" id = "spin_button"  onclick="javascript:toggle_spin()"></a>
+                            <a class="btn" id = "spin_button"  onclick="javascript:toggle_spin()"></a>
                         </div>
                     </div>
                 </div>
@@ -113,8 +113,8 @@
                         '<div class="lightbox-gallery" id="gallery_' . $brand . '">';
 
                  foreach ($picturetypes as $type){
-                     echo'<a href="../assets/images/gallery_images/' . $brand . '_' . $type . '.png " data-lightbox="' . $brand . '_photos">'.
-                         '<img className="img-fluid" src="../assets/images/gallery_images/' . $brand . '_' . $type . '.png " class="card-img-top img-thumbnail"/></a>';
+                     echo'<a href="./assets/images/gallery_images/' . $brand . '_' . $type . '.png " data-lightbox="' . $brand . '_photos">'.
+                         '<img className="img-fluid" src="./assets/images/gallery_images/' . $brand . '_' . $type . '.png " class="card-img-top img-thumbnail"/></a>';
                  }
 
                  echo   '</div>' .
@@ -123,34 +123,6 @@
                        </div>';
             }
             ?>
-<!--            <div id="coke_gallery">-->
-<!--                <div class="gallery card">-->
-<!--                    <div class="card-header main-colour"><h4 id="coke_gallery_title">--><?php //echo $data['cards']['gallery']['title']?><!--</h4></div>-->
-<!--                    <div class="lightbox-gallery" id="gallery_coke"></div>-->
-<!--                    <p class="card-text" id="coke_gallery_text">--><?php //echo $data['cards']['gallery']['text']?><!--</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div id="sprite_gallery">-->
-<!--                <div class="gallery card">-->
-<!--                    <div class="card-header main-colour"><h4 id="sprite_gallery_title">--><?php //echo $data['cards']['gallery']['title']?><!--</h4></div>-->
-<!--                    <div class="lightbox-gallery" id="gallery_sprite"></div>-->
-<!--                    <p class="card-text" id="sprite_gallery_text">--><?php //echo $data['cards']['gallery']['text']?><!--</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div id="pepper_gallery">-->
-<!--                <div class="gallery card">-->
-<!--                    <div class="card-header main-colour"><h4 id="pepper_gallery_title">--><?php //echo $data['cards']['gallery']['title']?><!--</h4></div>-->
-<!--                    <div class="lightbox-gallery" id="gallery_pepper"></div>-->
-<!--                    <p class="card-text" id="pepper_gallery_text">--><?php //echo $data['cards']['gallery']['text']?><!--</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div id="fanta_gallery">-->
-<!--                <div class="gallery card">-->
-<!--                    <div class="card-header main-colour"><h4 id="fanta_gallery_title">--><?php //echo $data['cards']['gallery']['title']?><!--</h4></div>-->
-<!--                    <div class="lightbox-gallery" id="gallery_fanta"></div>-->
-<!--                    <p class="card-text" id="fanta_gallery_text">--><?php //echo $data['cards']['gallery']['text']?><!--</p>-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
     </div>
     <div class="row">

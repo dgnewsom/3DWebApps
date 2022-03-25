@@ -33,8 +33,4 @@ class Controller {
         $data = $this->model->dbInsertData();
         $this->load->view('viewMessage',$data);
     }
-
-    function verge3D(){
-        $this->load->view('verge3dapp');
-    }
 }

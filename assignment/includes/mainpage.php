@@ -17,7 +17,7 @@
         <div class="col-sm-3">
             <div class="card">
                 <a href="javascript:showModel('coke')">
-                    <img class="card-img-top img-fluid img-thumbnail" src="../assets/images/site_images/cocacola.jpg" alt="Coca Cola">
+                    <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/cocacola.jpg" alt="Coca Cola">
                 </a>
                 <div class="card-body">
                     <div class="card-title">
@@ -37,7 +37,7 @@
         <div class="col-sm-3">
             <div class="card">
                 <a href="javascript:showModel('sprite')">
-                    <img class="card-img-top img-fluid img-thumbnail" src="../assets/images/site_images/sprite.jpg" alt="Sprite">
+                    <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/sprite.jpg" alt="Sprite">
                 </a>
                 <div class="card-body">
                     <div class="card-title">
@@ -57,7 +57,7 @@
         <div class="col-sm-3">
             <div class="card">
                 <a href="javascript:showModel('pepper')">
-                    <img class="card-img-top img-fluid img-thumbnail" src="../assets/images/site_images/pepper.jpg" alt="Dr Pepper">
+                    <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/pepper.jpg" alt="Dr Pepper">
                 </a>
                 <div class="card-body">
                     <div class="card-title">
@@ -77,7 +77,7 @@
         <div class="col-sm-3">
             <div class="card">
                 <a href="javascript:showModel('fanta')">
-                    <img class="card-img-top img-fluid img-thumbnail" src="../assets/images/site_images/fanta.jpg" alt="Fanta">
+                    <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/fanta.jpg" alt="Fanta">
                 </a>
                 <div class="card-body">
                     <div class="card-title">

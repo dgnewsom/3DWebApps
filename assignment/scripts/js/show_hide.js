@@ -28,6 +28,7 @@ function showModel($modelName){
     $('#fanta_gallery').hide();
     $('#fanta_description_model').hide();
 
+
     switch ($modelName){
         case 'coke':
             $('#coke_gallery').show()
