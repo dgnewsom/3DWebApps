@@ -15,7 +15,7 @@
     <div class="row">
         <!--Coca cola column-->
         <div class="col-sm-3">
-            <div class="card">
+            <div class="card brand-card">
                 <a href="javascript:showModel('coke')">
                     <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/cocacola.jpg" alt="Coca Cola">
                 </a>
@@ -29,13 +29,14 @@
                     <div class="card-text">
                         <p id="coke_description"><?php echo $data['brands']['coke']['description']?></p>
                     </div>
-                    <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-primary" target="_blank">Find out more ...</a>
+                </div>
+                <div class="card-footer"><a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn main-colour find-out-more-button" target="_blank">Find out more ...</a>
                 </div>
             </div>
         </div>
         <!--Sprite column-->
         <div class="col-sm-3">
-            <div class="card">
+            <div class="card brand-card">
                 <a href="javascript:showModel('sprite')">
                     <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/sprite.jpg" alt="Sprite">
                 </a>
@@ -49,13 +50,14 @@
                     <div class="card-text">
                         <p id="sprite_description"><?php echo $data['brands']['sprite']['description']?></p>
                     </div>
-                    <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-primary" target="_blank">Find out more ...</a>
+
                 </div>
+                <div class="card-footer"><a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn main-colour find-out-more-button" target="_blank">Find out more ...</a></div>
             </div>
         </div>
         <!--Dr Pepper column-->
         <div class="col-sm-3">
-            <div class="card">
+            <div class="card brand-card">
                 <a href="javascript:showModel('pepper')">
                     <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/pepper.jpg" alt="Dr Pepper">
                 </a>
@@ -69,13 +71,14 @@
                     <div class="card-text">
                         <p id="pepper_description"><?php echo $data['brands']['pepper']['description']?></p>
                     </div>
-                    <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper " class="btn btn-primary" target="_blank">Find out more ...</a>
+
                 </div>
+                <div class="card-footer"><a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper " class="btn main-colour find-out-more-button" target="_blank">Find out more ...</a></div>
             </div>
         </div>
         <!--Fanta column-->
         <div class="col-sm-3">
-            <div class="card">
+            <div class="card brand-card">
                 <a href="javascript:showModel('fanta')">
                     <img class="card-img-top img-fluid img-thumbnail" src="./assets/images/site_images/fanta.jpg" alt="Fanta">
                 </a>
@@ -89,8 +92,8 @@
                     <div class="card-text">
                         <p id="pepper_description"><?php echo $data['brands']['fanta']['description']?></p>
                     </div>
-                    <a href="https://www.fanta.com/" class="btn btn-primary" target="_blank">Find out more ...</a>
                 </div>
+                <div class="card-footer"><a href="https://www.fanta.com/" class="btn main-colour find-out-more-button" target="_blank">Find out more ...</a></div>
             </div>
         </div>
     </div>

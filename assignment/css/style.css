@@ -212,6 +212,14 @@ body {
 	line-height: 1.2;
 }
 
+.brand-card .card-footer{
+	text-align: center;
+}
+
+.find-out-more-button{
+	color: white;
+}
+
 /*Model Page*/
 .camera-row, .animation-row, .model-type-row
 {
@@ -223,6 +231,7 @@ body {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	text-align: center;
+	width: 100%;
 }
 
 #model_col{
@@ -322,6 +331,10 @@ body {
 	/*border: 1px solid rgba(0, 0, 0, 1.0);*/
 	padding: 2px;
 	height: 400px;
+}
+
+X3D, x3d{
+	height: 90%;
 }
 
 /*Deeper Understanding*/
@@ -505,8 +518,9 @@ body {
 }
 
 .copyright p{
-	font-size: 13px;
+	font-size: 0.75rem;
 }
+
 .social {
 	margin: auto;
 	padding-top: 0px;
@@ -518,130 +532,344 @@ body {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-	/* CSS rule to style the footer */
-	.footer {
-		height: 70px;
+
+	.col-sm-2{
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
-	.navbar-text > a {
-		font-size: 10px;
+	.col-sm-3{
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
-	.navbar-text > p {
-		font-size: 18px;
+	.col-sm-4{
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
-	.copyright {
-		padding-top: 20px;
+	.col-sm-6{
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
-	.social {
-		padding-top: 7px;
-	}
+
 	#main_3d_image {
-		height: 285px;
+		height: 300px;
+		padding: 2rem;
 	}
-	#main_text {
-		width: 50%;
-	}
+
 	#main_text h2 {
-		font-size: 30px;
+		font-size: 2.5rem;
 	}
+
 	#main_text h3 {
-		font-size: 20px;
+		font-size: 1.5rem;
 	}
+
 	#main_text p {
-		font-size: 13px;
+		font-size: 1rem;
 	}
-	.logo {
-		margin-top: 3px;
+
+	.model3D {
+		height: 30rem;
 	}
-	.logo h1 {
-		font-size: 50px;
+
+	#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button {
+		height: 50px;
+		width: 100px;
 	}
-	.logo h2 {
-		font-size: 50px;
+
+	.preview-header{
+		font-size: 1.5rem;
 	}
-	.logo h3 {
-		font-size: 35px;
-		margin-bottom: -5px;
-		padding-left: 20px;
+
+	#model_text {
+		font-size: 1rem;
 	}
-	.logo p {
-		font-size: 15px; /* You may have to tweak this to get a good fit */
-		margin-top: 45px; /* You may have to tweak this to get a good fit */
+
+	#front_cam_button, #back_cam_button, #left_cam_button, #right_cam_button, #top_cam_button, #bottom_cam_button {
+		height: 38px;
+		width: 60px;
 	}
-}
+
+	.camera-card, .animation-card, .model-type-card, .lighting-card {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.container, .container-sm, .container-md {
+		width: 100%;
+		max-width: 768px;
+	}
+
+	.container-3d-preview{
+		height: 43rem;
+	}
+
+	#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #verge_spin_button, #verge_wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button {
+		width: 100px;
+		height: 50px;
+	}
+
+	#verge_coke_button {
+		left: 5px;
+		top: 5px;
+	}
+
+	#verge_sprite_button {
+		left: 115px;
+		top: 5px;
+	}
+
+	#verge_pepper_button {
+		left: 225px;
+		top: 5px;
+	}
+
+	#verge_fanta_button {
+		left: 335px;
+		top: 5px;
+	}
+
+	#verge_wire_button {
+		right: 5px;
+		top: 5px;
+	}
+
+	#verge_spin_button {
+		right: 5px;
+		top: 65px;
+	}
+
+	#verge_can_button {
+		left: 60px;
+		top: 65px;
+	}
+
+	#verge_bottle_button {
+		left: 170px;
+		top: 65px;
+	}
+
+	#verge_cup_button {
+		left: 280px;
+		top: 65px;
+	}
+
+	.copyright p{
+		font-size: 1rem;
+	}
+
+	.social {
+		margin: 0px;
+	}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.nav-item a {
-		font-size: 18px;
+	.container, .container-sm, .container-md {
+		width: 90%;
+		max-width: 992px;
 	}
 
-	#main_3d_image {
-		height: 310px;
+	.col-sm-2{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.col-sm-3{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-sm-4{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-sm-6{
+		flex: 0 0 50%;
+		max-width: 50%;
 	}
 
-	#main_text {
-		width: 38%;
+	#main_3d_image{
+		height: 300px;
+		padding: 4rem;
 	}
 
-	#main_text h2 {
-		font-size: 35px;
+	#main_text{
+		width: 75%;
+		margin: 0;
 	}
 
-	#main_text p {
-		font-size: 15px;
+	.brand-card {
+		min-height: 45rem;
+	}
+
+	#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button {
+		height: 40px;
+		width: 78px;
+	}
+	.preview-header{
+		font-size: 2rem;
+	}
+
+	#model_text {
+		font-size: 20px;
 	}
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	.nav-item a {
-		font-size: 22px;
+	.container, .container-sm, .container-md {
+		width: 90%;
+		max-width: 1200px;
 	}
 
-	.logo {
-		margin-top: 10px;
+	#main_3d_image{
+		height: 400px;
+		padding: 7rem;
 	}
 
-	.logo h1 {
-		font-size: 65px;
-	}
-
-	.logo h2 {
-		font-size: 65px;
-	}
-
-	.logo h3 {
-		font-size: 45px;
-	}
-
-	.logo p {
-		font-size: 18px; /* You may have to tweak this to get a good fit */
-		margin-top: 60px; /* You may have to tweak this to get a good fit */
-	}
-
-	#main_3d_image {
-		height: 520px;
-		height: 520px;
-	}
-
-	#main_text {
-		width: 38%;
-	}
-
-	#main_text h2 {
-		font-size: 58px;
-	}
-
-	#main_text h3 {
-		font-size: 25px;
-	}
-
-	#main_text p {
-		font-size: 18px;
+	#main_text{
+		width: 60%;
+		margin: 0;
 	}
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	#main_text {
-		width: 30%;
+
+	.container, .container-sm, .container-md {
+		width: 90%;
+		max-width: 1200px;
+	}
+
+	.col-sm-2{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.col-sm-3{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-sm-4{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-sm-6{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.navbar_coca_cola {
+		min-height: 120px;
+	}
+
+	.logo {
+		margin-top: 3px;
+	}
+
+	.logo h1 {
+		font-size: 50px;
+	}
+
+	.logo h2 {
+		font-size: 50px;
+	}
+
+	.logo h3 {
+		font-size: 30px;
+
+	}
+
+	.logo p {
+		font-size: 18px;
+		margin-top: 45px;
+	}
+
+	.nav-item a {
+		font-size: 25px;
+	}
+
+	#main_3d_image{
+		height: 400px;
+		padding: 7rem;
+	}
+
+	#main_text{
+		width: 50%;
+		margin: 0;
+	}
+
+	.brand-card {
+		min-height: 50rem;
+	}
+
+	}
+	#model_col {
+		flex: 0 0 50%;
+		max-width: 100%;
+	}
+
+	#control-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#animation-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#lighting-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#verge_coke_button, #verge_sprite_button, #verge_pepper_button, #verge_fanta_button, #verge_spin_button, #verge_wire_button, #verge_can_button, #verge_cup_button, #verge_bottle_button {
+		width: 150px;
+		height: 75px;
+	}
+
+	#verge_coke_button {
+		left: 10px;
+		top: 10px;
+	}
+
+	#verge_sprite_button {
+		left: 10px;
+		top: 120px;
+	}
+
+	#verge_pepper_button {
+		left: 10px;
+		top: 230px;
+	}
+
+	#verge_fanta_button {
+		left: 10px;
+		top: 340px;
+	}
+
+	#verge_wire_button {
+		left: 10px;
+		top: 500px;
+	}
+
+	#verge_spin_button {
+		left: 10px;
+		top: 600px;
+	}
+
+	#verge_can_button {
+		left: unset;
+		right: 10px;
+		top: 10px;
+	}
+
+	#verge_bottle_button {
+		left: unset;
+		right: 10px;
+		top: 120px;
+	}
+
+	#verge_cup_button {
+		left: unset;
+		right: 10px;
+		top: 230px;
 	}
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -649,5 +877,65 @@ body {
 	.container {
 		max-width: 90%;
 	}
-}
 
+	.col-sm-2 {
+		flex: 0 0 16.666667%;
+		max-width: 16.666667%;
+	}
+
+	.col-sm-3 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.col-sm-4 {
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+
+	.col-sm-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	#main_3d_image{
+		height: 400px;
+		padding: 7rem;
+	}
+
+	#main_text{
+		width: 40%;
+		margin: 0;
+	}
+
+	#control-col {
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+
+	.model3D {
+		height: 500px;
+	}
+
+	X3D,x3d{
+		height: 90%;
+	}
+
+	.lighting-card{
+		min-height: 16rem;
+	}
+
+	.animation-card{
+		min-height: 16rem;
+	}
+
+	#front_cam_button, #back_cam_button, #left_cam_button, #right_cam_button, #top_cam_button, #bottom_cam_button {
+		height: 51px;
+		width: 80px;
+	}
+
+	#x3d_coke_button, #x3d_sprite_button, #x3d_fanta_button, #x3d_pepper_button {
+		height: 80px;
+		width: 160px;
+	}
+}

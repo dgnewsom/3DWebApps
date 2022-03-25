@@ -19,17 +19,16 @@
             <!-- Links -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:showHome()">Home</a>
+                    <a class="nav-link" href="javascript:showHome()"><i class="fa-solid fa-house"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" title="About" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Created for the H7006: Web 3D Applications Module 2022">About</a>
-                    <!--					<a class="nav-link" href="#">About</a>-->
+                    <a class="nav-link" title="About" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Created for the H7006: Web 3D Applications Module 2022">About</a>
                 </li>
 
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Drinks</a>
-                    <div class="dropdown-menu main-colour">
+                    <div class="dropdown-menu dropdown-menu-right main-colour">
                         <a class="dropdown-item" href="javascript:showModel('coke')" >Coca Cola</a>
                         <a class="dropdown-item" href="javascript:showModel('sprite')">Sprite</a>
                         <a class="dropdown-item" href="javascript:showModel('pepper')">Dr Pepper</a>
@@ -39,9 +38,10 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Extras</a>
-                    <div class="dropdown-menu main-colour">
+                    <div class="dropdown-menu dropdown-menu-right main-colour">
                         <a class="dropdown-item" href="javascript:showDeeperUnderstanding()">Deeper </br>Understanding</a>
                         <a class="dropdown-item" href="javascript:showVerge3d()">Verge3D App</a>
+                        <a class="dropdown-item" target="_blank" href="https://github.com/dgnewsom/3DWebApps"><i class="fa-brands fa-github-square"></i> Github Repo</a>
                     </div>
                 </li>
             </ul>

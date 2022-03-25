@@ -12,9 +12,9 @@ function toggle_spin()
     document.getElementById('model__fanta_bottle-TIMER').setAttribute('enabled', is_spinning);
     document.getElementById('model__cup-TIMER').setAttribute('enabled', is_spinning);
     if(is_spinning){
-        document.getElementById('spin_button').style.backgroundImage = 'url(../assets/images/buttons/stop_spin_button.png)';
+        document.getElementById('spin_button').style.backgroundImage = 'url(./assets/images/buttons/stop_spin_button.png)';
     }else{
-        document.getElementById('spin_button').style.backgroundImage = 'url(../assets/images/buttons/spin_button.png)';
+        document.getElementById('spin_button').style.backgroundImage = 'url(./assets/images/buttons/spin_button.png)';
     }
 }
 function lighting(intensity)

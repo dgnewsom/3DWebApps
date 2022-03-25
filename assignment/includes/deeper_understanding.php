@@ -12,12 +12,14 @@
                     <li>Use of various formats (.obj, .fbx) in order to import blender models to 3DS max, adjust as necessary and export to .vrml then convert to .x3d</li>
                     <li>Detailed modelling of 4 different bottles for each of the brands included.</li>
                     <li>Manual manipulation of the .x3d file's id's and parameters to include all models in one file and then swap models / textures as required.</li>
-                    <li>Using JQuery to show and hide areas instead of switching pages.</li>
+                    <li>Create a model control javascript to keep track of the current brand / model type and adjust the cameras, textures, lighting and swap models appropriately</li>
                     <li>Use slider and javascript to adjust the lighting levels for the models pane</li>
+                    <li>Using an SQL database and 2D arrays to store and retrieve the details for each brand as well as texts for the Camera, animation, Lighting and Model Type Cards on the model page</li>
+                    <li>Using JQuery to show and hide areas instead of switching pages.</li>
                     <li>Used JQuery to restyle the page according to the brand being viewed and reset upon leaving model page. (also has links in the footer to cycle colours and reset to current brand displayed)</li>
                     <li>Research and implement a lightbox gallery (by Lokesh Dhakar) for each brand</li>
                     <li>Dynamically populate a different gallery on the model page depending upon the currently viewed brand.</li>
-                    <li>Using an SQL database and 2D arrays to store and retreive the details for each brand as well as texts for the Camera, animation, Lighting and Model Type Cards on the model page</li>
+                    <li>Render images of all models for the galleries</li>
                 </ul>
             </div>
         </div>

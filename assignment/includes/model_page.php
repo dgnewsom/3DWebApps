@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="control-col">
             <div class="row camera-row">
                 <div class="card camera-card">
                     <div class="card-header main-colour">
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="row animation-row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" id="animation-col">
                 <div class="card animation-card">
                     <div class="card-header main-colour">
                         <div class="card-title">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" id="lighting-col">
                 <div class="card lighting-card">
                     <div class="card-header main-colour">
                         <div class="card-title">
@@ -98,7 +98,7 @@
             </div>
 
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-2" id="gallery-col">
             <?php
 
             $picturetypes = ['logo', 'can', 'bottle', 'cup'];
