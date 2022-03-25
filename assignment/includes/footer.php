@@ -2,9 +2,9 @@
 <nav class="navbar navbar-expand-sm footer" id="footer">
     <div class="container">
         <div class="navbar-text float-left copyright">
-            <p><span class="align-baseline">&copy; 2022 <a class="footer-link" href="https://www.danielnewsom.co.uk" target="_blank">Daniel Newsom | </a>
+            <p>&copy; 2022 <a class="footer-link" href="https://www.danielnewsom.co.uk" target="_blank">Daniel Newsom | </a>
 													<a class="footer-link" href="javascript:changeColours()">Switch Colours | </a>
-													<a class="footer-link" href="javascript:resetColours()">Reset Colours</a></span></p>
+													<a class="footer-link" href="javascript:resetColours()">Reset Colours</a></p>
         </div>
         <div class="navbar-text float-right social">
             <a href="https://www.facebook.com/cocacolaGB" target="_blank"><i class="fab fa-facebook-square fa-2x footer-link"></i></a>

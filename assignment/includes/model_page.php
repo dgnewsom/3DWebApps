@@ -1,8 +1,8 @@
 <div id="model">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="card text-left">
-                <div class="card-header main-colour">
+        <div class="col-sm-6" id="model_col">
+            <div class="card text-left" id="model_card">
+                <div class="card-header main-colour" id="brand_header">
                     <button class="btn" id="x3d_coke_button" onclick="showModel('coke')"></button>
                     <button class="btn" id="x3d_sprite_button" onclick="showModel('sprite')"></button>
                     <button class="btn" id="x3d_pepper_button" onclick="showModel('pepper')"></button>
@@ -128,28 +128,62 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-body">
-                    <div id="coke_description_model">
+                <div id="coke_description_model">
+                    <div class="card-header main-colour">
                         <h3 class="card-title" id="coke_page_title"><?php echo $data['brands']['coke']['title']?></h3>
+                        <br/>
                         <h4 class="card-subtitle" id="coke_page_subtitle"><?php echo $data['brands']['coke']['modelPageSubtitle']?></h4>
+                    </div>
+                    <div class="card-body">
                         <p class="card-text" id="coke_page_description"><?php echo $data['brands']['coke']['modelPageDescription']?></p>
                     </div>
-                    <div id="sprite_description_model">
-                        <h3 class="card-title" id="coke_page_title"><?php echo $data['brands']['sprite']['title']?></h3>
-                        <h4 class="card-subtitle" id="coke_page_subtitle"><?php echo $data['brands']['sprite']['modelPageSubtitle']?></h4>
-                        <p class="card-text" id="coke_page_description"><?php echo $data['brands']['sprite']['modelPageDescription']?></p>
+                </div>
+                <div id="sprite_description_model">
+                    <div class="card-header main-colour">
+                        <h3 class="card-title" id="sprite_page_title"><?php echo $data['brands']['sprite']['title']?></h3>
+                        <br/>
+                        <h4 class="card-subtitle" id="sprite_page_subtitle"><?php echo $data['brands']['sprite']['modelPageSubtitle']?></h4>
                     </div>
-                    <div id="pepper_description_model">
-                        <h3 class="card-title" id="coke_page_title"><?php echo $data['brands']['pepper']['title']?></h3>
-                        <h4 class="card-subtitle" id="coke_page_subtitle"><?php echo $data['brands']['pepper']['modelPageSubtitle']?></h4>
-                        <p class="card-text" id="coke_page_description"><?php echo $data['brands']['pepper']['modelPageDescription']?></p>
-                    </div>
-                    <div id="fanta_description_model">
-                        <h3 class="card-title" id="coke_page_title"><?php echo $data['brands']['fanta']['title']?></h3>
-                        <h4 class="card-subtitle" id="coke_page_subtitle"><?php echo $data['brands']['fanta']['modelPageSubtitle']?></h4>
-                        <p class="card-text" id="coke_page_description"><?php echo $data['brands']['fanta']['modelPageDescription']?></p>
+                    <div class="card-body">
+                        <p class="card-text" id="sprite_page_description"><?php echo $data['brands']['sprite']['modelPageDescription']?></p>
                     </div>
                 </div>
+                <div id="pepper_description_model">
+                    <div class="card-header main-colour">
+                        <h3 class="card-title" id="pepper_page_title"><?php echo $data['brands']['pepper']['title']?></h3>
+                        <br/>
+                        <h4 class="card-subtitle" id="pepper_page_subtitle"><?php echo $data['brands']['pepper']['modelPageSubtitle']?></h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" id="pepper_page_description"><?php echo $data['brands']['pepper']['modelPageDescription']?></p>
+                    </div>
+                </div>
+                <div id="fanta_description_model">
+                    <div class="card-header main-colour">
+                        <h3 class="card-title" id="fanta_page_title"><?php echo $data['brands']['fanta']['title']?></h3>
+                        <br/>
+                        <h4 class="card-subtitle" id="fanta_page_subtitle"><?php echo $data['brands']['fanta']['modelPageSubtitle']?></h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" id="fanta_page_description"><?php echo $data['brands']['fanta']['modelPageDescription']?></p>
+                    </div>
+                </div>
+<!--                    <div id="sprite_description_model">-->
+<!--                        <h3 class="card-title" id="coke_page_title">--><?php //echo $data['brands']['sprite']['title']?><!--</h3>-->
+<!--                        <h4 class="card-subtitle" id="coke_page_subtitle">--><?php //echo $data['brands']['sprite']['modelPageSubtitle']?><!--</h4>-->
+<!--                        <p class="card-text" id="coke_page_description">--><?php //echo $data['brands']['sprite']['modelPageDescription']?><!--</p>-->
+<!--                    </div>-->
+<!--                    <div id="pepper_description_model">-->
+<!--                        <h3 class="card-title" id="coke_page_title">--><?php //echo $data['brands']['pepper']['title']?><!--</h3>-->
+<!--                        <h4 class="card-subtitle" id="coke_page_subtitle">--><?php //echo $data['brands']['pepper']['modelPageSubtitle']?><!--</h4>-->
+<!--                        <p class="card-text" id="coke_page_description">--><?php //echo $data['brands']['pepper']['modelPageDescription']?><!--</p>-->
+<!--                    </div>-->
+<!--                    <div id="fanta_description_model">-->
+<!--                        <h3 class="card-title" id="coke_page_title">--><?php //echo $data['brands']['fanta']['title']?><!--</h3>-->
+<!--                        <h4 class="card-subtitle" id="coke_page_subtitle">--><?php //echo $data['brands']['fanta']['modelPageSubtitle']?><!--</h4>-->
+<!--                        <p class="card-text" id="coke_page_description">--><?php //echo $data['brands']['fanta']['modelPageDescription']?><!--</p>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
